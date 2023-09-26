@@ -14,5 +14,25 @@ namespace InglesCriancas
         {
             InitializeComponent();
         }
+
+        private void btCores_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new PageCores());
+        }
+
+        private void btNumeros_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btFamilia_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btSair_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
