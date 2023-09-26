@@ -84,7 +84,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\logojake.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\InglesCriancas\InglesCriancas.csproj">
       <Project>{C4570129-15CB-4DFF-8EA9-958324A580DD}</Project>

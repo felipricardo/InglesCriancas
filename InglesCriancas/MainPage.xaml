@@ -1,13 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="InglesCriancas.MainPage">
+             x:Class="InglesCriancas.MainPage"
+             Title="Inglês para crianças">
 
     <StackLayout>
-        <Label Text="Welcome to Xamarin.Forms!" 
-               HorizontalOptions="Center" 
-               VerticalOptions="CenterAndExpand"/>
-        
+        <Image Source="logoapp"/>
+        <Button Text="Cores"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"/>
+        <Button Text="Números"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"/>
+        <Button Text="Família"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"/>
+        <Button Text="Sair"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"/>
+        <Image Source="logojake"/>
     </StackLayout>
 
 </ContentPage>
