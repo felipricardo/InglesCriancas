@@ -5,17 +5,26 @@
              Title="Cores">
     <ContentPage.Content>
         <ScrollView>
+            <!--armazena todas as cores-->
             <StackLayout>
+                <!--representa uma cor-->
                 <StackLayout Orientation="Horizontal">
                     <Image Source="color_black"/>
-                    <Label Text="Inglês: Black"/>
-                    <Label Text="Português: Preto"/>
+                    <!--organiza os textos-->
+                    <StackLayout>
+                        <Label FontSize="Large" Text="Inglês: Black" VerticalOptions="EndAndExpand"/>
+                        <Label FontSize="Large" Text="Português: Preto" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal">
                     <Image Source="color_brown"/>
-                    <Label Text="Inglês: Brown"/>
-                    <Label Text="Português: Marrom"/>
+                    <!--organiza os textos-->
+                    <StackLayout>
+                        <Label FontSize="Large" Text="Inglês: Brown" VerticalOptions="EndAndExpand"/>
+                        <Label FontSize="Large" Text="Português: Marrom" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
                 </StackLayout>
+                
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
