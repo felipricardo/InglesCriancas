@@ -10,8 +10,8 @@
                     <Image Source="color_black"/>
                     <Label Text="Inglês: Black"/>
                     <Label Text="Português: Preto"/>
-                </StackLayout Orientation="Horizontal">
-                <StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
                     <Image Source="color_brown"/>
                     <Label Text="Inglês: Brown"/>
                     <Label Text="Português: Marrom"/>
