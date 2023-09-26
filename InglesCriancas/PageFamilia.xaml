@@ -55,7 +55,7 @@
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="older_brother"/>
+                    <Image Source="family_older_brother"/>
                     <!--organiza os textos-->
                     <StackLayout>
                         <Label FontSize="Large" Text="Inglês: Older Brother" VerticalOptions="EndAndExpand"/>
@@ -64,7 +64,7 @@
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="older_sister"/>
+                    <Image Source="family_older_sister"/>
                     <!--organiza os textos-->
                     <StackLayout>
                         <Label FontSize="Large" Text="Inglês: Older Sister" VerticalOptions="EndAndExpand"/>
@@ -82,7 +82,7 @@
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="younger_brother"/>
+                    <Image Source="family_younger_brother"/>
                     <!--organiza os textos-->
                     <StackLayout>
                         <Label FontSize="Large" Text="Inglês: Younger Brother" VerticalOptions="EndAndExpand"/>
@@ -91,7 +91,7 @@
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="younger_sister"/>
+                    <Image Source="family_younger_sister"/>
                     <!--organiza os textos-->
                     <StackLayout>
                         <Label FontSize="Large" Text="Inglês: Younger Sister" VerticalOptions="EndAndExpand"/>
