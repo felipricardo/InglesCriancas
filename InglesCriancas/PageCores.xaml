@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="InglesCriancas.PageCores"
-             Title="Cores">
+             Title="Cores"
+             BackgroundColor="#f8f8ff">
     <ContentPage.Content>
         <ScrollView>
             <!--armazena todas as cores-->
@@ -25,7 +26,7 @@
                     </StackLayout>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="color_dust_yellow"/>
+                    <Image Source="color_dusty_yellow"/>
                     <!--organiza os textos-->
                     <StackLayout>
                         <Label FontSize="Large" Text="Inglês: Dusty Yellow" VerticalOptions="EndAndExpand"/>

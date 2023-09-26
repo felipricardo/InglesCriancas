@@ -22,12 +22,12 @@ namespace InglesCriancas
 
         private void btNumeros_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new PageNumeros());
         }
 
         private void btFamilia_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new PageFamilia());
         }
 
         private void btSair_Clicked(object sender, EventArgs e)

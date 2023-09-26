@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InglesCriancas.PageFamilia"
+             Title="Família"
+             BackgroundColor="#f8f8ff">
+    <ContentPage.Content>
+        <ScrollView>
+            <!--armazena todos os integrantes-->
+            <StackLayout>
+                <!--representa um integrante da familia-->
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_daughter"/>
+                    <!--organiza os textos-->
+                    <StackLayout>
+                        <Label FontSize="Large" Text="Inglês: Daughter" VerticalOptions="EndAndExpand"/>
+                        <Label FontSize="Large" Text="Português: Filha" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_father"/>
+                    <!--organiza os textos-->
+                    <StackLayout>
+                        <Label FontSize="Large" Text="Inglês: Father" VerticalOptions="EndAndExpand"/>
+                        <Label FontSize="Large" Text="Português: Pai" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
