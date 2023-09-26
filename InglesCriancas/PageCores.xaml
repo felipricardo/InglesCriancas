@@ -24,7 +24,55 @@
                         <Label FontSize="Large" Text="Português: Marrom" VerticalOptions="StartAndExpand"/>
                     </StackLayout>
                 </StackLayout>
-                
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="color_dust_yellow"/>
+                    <!--organiza os textos-->
+                    <StackLayout>
+                        <Label FontSize="Large" Text="Inglês: Dusty Yellow" VerticalOptions="EndAndExpand"/>
+                        <Label FontSize="Large" Text="Português: Amarelo Empoeirado" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="color_gray"/>
+                    <!--organiza os textos-->
+                    <StackLayout>
+                        <Label FontSize="Large" Text="Inglês: Gray" VerticalOptions="EndAndExpand"/>
+                        <Label FontSize="Large" Text="Português: Cinza" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="color_green"/>
+                    <!--organiza os textos-->
+                    <StackLayout>
+                        <Label FontSize="Large" Text="Inglês: Green" VerticalOptions="EndAndExpand"/>
+                        <Label FontSize="Large" Text="Português: Verde" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="color_mustard_yellow"/>
+                    <!--organiza os textos-->
+                    <StackLayout>
+                        <Label FontSize="Large" Text="Inglês: Mustard Yellow" VerticalOptions="EndAndExpand"/>
+                        <Label FontSize="Large" Text="Português: Amarelo Mostarda" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="color_red"/>
+                    <!--organiza os textos-->
+                    <StackLayout>
+                        <Label FontSize="Large" Text="Inglês: Red" VerticalOptions="EndAndExpand"/>
+                        <Label FontSize="Large" Text="Português: Vermelho" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="color_white"/>
+                    <!--organiza os textos-->
+                    <StackLayout>
+                        <Label FontSize="Large" Text="Inglês: White" VerticalOptions="EndAndExpand"/>
+                        <Label FontSize="Large" Text="Português: Branco" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
