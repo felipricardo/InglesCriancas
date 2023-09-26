@@ -31,7 +31,8 @@
                 HorizontalOptions="FillAndExpand"
                 VerticalOptions="FillAndExpand"
                 x:Name="btSair"
-                Clicked="btSair_Clicked"/>
+                Clicked="btSair_Clicked"
+                BackgroundColor="#BCDDE7"/>
         <Image Source="logojake"/>
     </StackLayout>
 

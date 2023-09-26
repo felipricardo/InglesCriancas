@@ -32,7 +32,29 @@ namespace InglesCriancas
 
         private void btSair_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+                Device.BeginInvokeOnMainThread(async () =>
+                {
+                    var result = await this.DisplayAlert("Alert!", "want to exit?", "Yes", "No");
+                    if (result)
+                    {
+                        #if __ANDROID__
+                            var activity = (Android.App.Activity)Forms.Context;
+                            activity.FinishAffinity();
+                        #endif
+                        #if __IOS__
+                            Thread.CurrentThread.Abort();
+                        #endif
+                    }
+                });
 
+                DependencyService.Get<ICloseApplication>().closeApplication();
+                System.Diagnostics.Process.GetCurrentProcess().Kill();
+            }
+            catch
+            {
+            }
         }
     }
 }
