@@ -18,7 +18,7 @@
 
 3. Explore as lições interativas e aprenda enquanto se diverte.
 
-4. Desfrute de imagens e traduções para facilitar o aprendizado.
+4. Há imagens e traduções para facilitar o aprendizado.
 
 ## Tecnologias Utilizadas
 
