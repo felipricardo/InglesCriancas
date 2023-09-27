@@ -1,7 +1,5 @@
 # InglesCriancas
 
-# InglesCriancas
-
 **InglesCriancas** é um aplicativo educacional desenvolvido em Xamarin.Forms que visa ensinar inglês básico para crianças. O aplicativo oferece lições sobre cores, números e membros da família, tornando o aprendizado divertido e interativo.
 
 ## Funcionalidades
